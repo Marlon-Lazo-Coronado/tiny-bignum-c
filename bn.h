@@ -72,7 +72,6 @@ There may well be room for performance-optimizations and improvements.
 /* Custom assert macro - easy to disable */
 #define require(p, msg) assert(p && msg)
 */
-
 /* Data-holding structure: array of DTYPEs */
 struct bn
 {
