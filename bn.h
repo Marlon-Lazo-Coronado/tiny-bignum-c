@@ -68,10 +68,10 @@ There may well be room for performance-optimizations and improvements.
   #error DTYPE must be defined to uint8_t, uint16_t uint32_t or whatever
 #endif
 
-
+/*
 /* Custom assert macro - easy to disable */
 #define require(p, msg) assert(p && msg)
-
+*/
 
 /* Data-holding structure: array of DTYPEs */
 struct bn
